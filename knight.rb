@@ -1,6 +1,6 @@
 class Knight
     attr_accessor :square, :parent, :moves
-    
+
     def initialize(square, parent = nil, moves = nil)
         @square = square
         @parent = parent
